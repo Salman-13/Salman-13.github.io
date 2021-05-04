@@ -1,0 +1,79 @@
+.app {
+    width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000000D
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 13px 0;
+    font-size: 24px;
+    color: #003399;
+}
+.pad {
+    padding: 0 30px;
+}
+.imga {
+    width: 169px;
+}
+.number {
+    font-size: 288px;
+    color: #F27C0F;
+    text-align: center;
+}
+.main {
+    margin-top: 30px;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    width: 710px;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: auto;
+}
+.buttons-1, .buttons-2, .buttons-3 {
+    width: 200px;
+    height: 59px;
+    line-height: 59px;
+}
+.buttons-1 {
+    background-color: #003399;
+    color: white;
+;
+}
+.buttons-2 {
+    background: #F27C0F;
+    color: white;
+}
+.buttons-3 {
+    background: #E5E5E5;
+    color: black;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    color: #00000080;
+    font-size: 16px;
+
+}
+.navbot {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    margin-left: 30px;
+    line-height: 30px;
+}
+.corp {
+    padding-left: 133px;
+    line-height: 30px;
+}
